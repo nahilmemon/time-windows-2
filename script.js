@@ -221,7 +221,7 @@ function drawFriendWindows() {
     // image(timeBackgroundImage, xPos, yPos, friendWindowWidth, friendWindowHeight);
 
     if (friendsList[i]["Available"] == "Yes") {
-      image(timeBackgroundImage, xPos+20, yPos+20, friendWindowWidth*0.8, friendWindowHeight*0.8);
+      image(timeBackgroundImage, xPos+friendWindowWidth*0.1, yPos+friendWindowHeight*0.05, friendWindowWidth*0.8, friendWindowHeight*0.8);
       image(friendWindowImageOpen, xPos, yPos, friendWindowWidth, friendWindowHeight);
     } else {
       image(friendWindowImageClosed, xPos, yPos, friendWindowWidth, friendWindowHeight);
